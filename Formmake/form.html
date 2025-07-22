@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form method="GET">
+        First Name: <input type="text" name="first_name" required><br>
+        Last Name: <input type="text" name="last_name" required><br>
+        Email: <input type="email" name="email" required><br>
+        Reason for Contact: 
+        <select>
+            <option value="project" required>Project</option>
+            <option value="thesis">Thesis</option>
+            <option value="meet">Meet and Greet</option>
+        </select>
+        <br>
+        Service:
+        <select>
+            <option value="appdev" required>App Development</option>
+            <option value="graphics" >Graphics Design</option>
+            <option value="seo" >SEO</option>
+        </select>
+        <br>
+        Offering job: <br>
+        <input type="radio" name="job_offering" value="yes"> Yes<br>
+        <input type="radio" name="job_offering" value="no"> No<br>
+        Position: <br>
+        <input type="radio" name="position">HR<br>
+        <input type="radio" name="position">CEO<br>
+        <input type="radio" name="position">Others<br>
+
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

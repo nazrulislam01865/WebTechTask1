@@ -1,0 +1,35 @@
+
+body{
+   background-image:  url('../Images/rm222batch2-mind-03.jpg');
+    background-size: cover;
+}
+header{
+    background-color: rgba(62,174,228,255);
+    color: rgba(255,255,255,255);
+    text-align: center;
+}
+h2{
+    color: rgba(62,174,228,255);
+    text-align: center;
+    border: 2px solid rgba(62,174,228,255);
+}
+p{
+    font-size: 20px;
+}
+img{
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 200px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,255);
+}
+
+li{
+    list-style-type: "*";
+    font-size: 20px;
+    padding: 10px;
+}
+
